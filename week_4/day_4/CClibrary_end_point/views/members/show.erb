@@ -1,0 +1,10 @@
+<h2><%= @member.name %></h2>
+
+<h3>Address: <%= @member.address %></h3>
+
+Books rented out:
+<ul>
+<% @member.books.each do |book| %>
+    <li>Book: <%= book.title %> By: <%= book.author %></li>
+<% end %>
+</ul>

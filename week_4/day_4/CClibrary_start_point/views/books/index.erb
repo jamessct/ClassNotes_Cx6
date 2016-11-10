@@ -1,0 +1,7 @@
+<div>
+<% @books.each do |book| %>
+  <a href="/books/<%= book.id  %>"><%= book.title %></a>  - By: <%= book.author %><br><hr>
+<% end %>
+
+<a href="/books/new">Add new book</a><br>
+</div>

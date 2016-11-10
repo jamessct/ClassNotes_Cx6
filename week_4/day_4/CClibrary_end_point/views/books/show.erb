@@ -1,0 +1,11 @@
+<div>
+<h1><%= @book.title %></h1>
+<h2>By: <%= @book.author %></h2>
+
+  Rented by:
+  <ul>
+  <% @book.members.each do |member| %>
+    <li><%= member.name  %></li>
+  <% end %>
+  </ul>
+</div>

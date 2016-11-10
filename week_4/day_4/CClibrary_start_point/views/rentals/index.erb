@@ -1,0 +1,6 @@
+<div>
+  <% @rentals.each do |rental| %>
+    Book: <%= rental.book.title  %> - Rented by: <%= rental.member.name  %><br><hr>
+  <% end %>
+
+</div>

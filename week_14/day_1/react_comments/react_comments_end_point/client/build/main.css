@@ -1,0 +1,28 @@
+body {
+  font-family: "Helvetica";
+}
+
+#app {
+  padding-left: 30px;
+  width: 40%;
+}
+
+.comment {
+  background-color: #E2E4EC;
+  margin: 10px 0 5px 0;
+  padding: 10px;
+}
+
+.comment:nth-child(even) {
+  background-color: #cbcdd4;
+}
+
+h4 {
+  margin: 0 0 10px 0;
+}
+
+input { 
+  font-size: 16px;
+  padding: 3px;
+  margin: 0 5px 0 0;
+}
